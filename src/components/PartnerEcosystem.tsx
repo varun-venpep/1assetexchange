@@ -25,7 +25,7 @@ const PartnerEcosystem = () => {
         <div className="flex justify-center mt-8">
           <Link 
             to="/ecosystem-partners" 
-            className="group inline-flex items-center gap-2 font-montserrat uppercase tracking-wide text-royalgold px-6 py-2.5 rounded-full border border-royalgold hover:bg-royalgold hover:text-midnight transition-all duration-200 shadow-gold text-sm"
+            className="group inline-flex items-center gap-2 font-montserrat uppercase tracking-wide text-black px-6 py-2.5 rounded-full border border-royalgold hover:bg-royalgold hover:text-midnight transition-all duration-200 shadow-gold text-sm"
           >
             View Full Ecosystem
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

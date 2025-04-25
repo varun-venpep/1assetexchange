@@ -10,7 +10,7 @@ const services = [
     title: "AgentOps",
     layer: "Agentic Operations & Automation Layer",
     desc: "Automate internal workflows, stakeholder CRM, and ecosystem logic with AI-powered operational stacks. For ventures scaling with precision.",
-    cta: { label: "See Tools", href: "#" },
+    cta: { label: "See Tools", href: "services/agentops" },
   },
   {
     color: "bg-[#FCC200]/20",
@@ -18,7 +18,7 @@ const services = [
     title: "RapidStack",
     layer: "MVP Builder & Validation Layer",
     desc: "From idea to user-facing product in weeks. Deploy AI-enabled MVPs and pre-tokenization pilots with no-code modularity.",
-    cta: { label: "Launch Now", href: "#" },
+    cta: { label: "Launch Now", href: "services/rapidstack" },
   },
   {
     color: "bg-[#6A0DAD]/10",
@@ -26,7 +26,7 @@ const services = [
     title: "TokenCore",
     layer: "Token Design & Governance Infrastructure",
     desc: "Launch programmable assets with smart contract templates, DAO tooling, and tokenomics infrastructure — ready for protocol and exchange alignment.",
-    cta: { label: "Explore Tokens", href: "#" },
+    cta: { label: "Explore Tokens", href: "services/tokencore" },
   },
 ];
 

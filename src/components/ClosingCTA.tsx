@@ -17,7 +17,7 @@ const ClosingCTA = () => {
         <div className="flex flex-col sm:flex-row gap-5 justify-center">
           <Link to="/contact?type=bookCall">
             <Button
-              className="px-8 py-6 text-base rounded-full font-semibold font-poppins shadow-gold bg-royalgold text-midnight hover:shadow-glow-gold transition-all duration-200"
+              className="px-8 py-6 text-base rounded-full font-semibold font-poppins shadow-gold bg-royalgold text-midnight hover:bg-royalgold transition-all duration-200"
             >
               Book a Strategy Call
             </Button>

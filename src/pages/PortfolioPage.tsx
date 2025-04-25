@@ -68,10 +68,12 @@ const PortfolioPage = () => {
                 <p className="text-white/80 mb-4 text-sm">
                   Apply for our incubation program and turn your idea into a venture with our support.
                 </p>
+                <Link to="/contact">
                 <Button className="bg-royalgold text-midnight hover:bg-royalgold/90 w-full">
                   Apply for Incubation
                   <ArrowRight size={16} className="ml-1" />
                 </Button>
+                </Link>
               </div>
             </div>
 

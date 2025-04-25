@@ -99,9 +99,11 @@ const PortfolioDetailPage = () => {
                   Get Notified on Launch
                 </Button>
               ) : (
+                <Link to="/ecosystem-partners">
                 <Button variant="outline" className="gap-2">
                   Explore Partnership
                 </Button>
+                </Link>
               )}
             </div>
           </div>
@@ -260,12 +262,16 @@ const PortfolioDetailPage = () => {
                 <p className="text-white/80 mb-4 text-sm">
                   Interested in building something similar? Get in touch with our team to explore how we can help.
                 </p>
+                <Link to="/contact">
                 <Button className="w-full bg-royalgold text-midnight hover:bg-royalgold/90 mb-2">
                   Book a Discovery Call
                 </Button>
-                <Button variant="outline" className="w-full text-white border-white/30 hover:bg-white/10">
+                </Link>
+                <Link to="/portfolio">
+                <Button variant="outline" className="w-full text-black border-white/30  ">
                   View More Ventures
                 </Button>
+                </Link>
               </div>
             </div>
           </div>

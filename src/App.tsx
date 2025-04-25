@@ -16,6 +16,9 @@ import PortfolioDetailPage from "./pages/PortfolioDetailPage";
 import ContactPage from "./pages/ContactPage";
 import TeamPage from "./pages/TeamPage";
 import Services from "./pages/Services";
+import AgentOpsDetail from "./pages/AgentOpsDetail";
+import TokenCoreDetail from "./pages/TokenCoreDetail";
+import RapidStackDetail from "./pages/RapidStackDetail";
 
 const queryClient = new QueryClient();
 
@@ -46,6 +49,9 @@ const App = () => (
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/agentops" element={<AgentOpsDetail />} />
+          <Route path="/services/rapidstack" element={<RapidStackDetail />} />
+          <Route path="/services/tokencore" element={<TokenCoreDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <CoPilotButton />

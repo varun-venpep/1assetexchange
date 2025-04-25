@@ -14,14 +14,14 @@ export interface QuickLink {
 
 // Service section for the footer
 export const footerServices: Service[] = [
-  { label: "AgentOps", href: "/#services" },
-  { label: "RapidStack", href: "/#services" },
-  { label: "TokenCore", href: "/#services" }
+  { label: "AgentOps", href: "/services/agentops" },
+  { label: "RapidStack", href: "/services/rapidstack" },
+  { label: "TokenCore", href: "/services/tokencore" }
 ];
 
 // Quick links section - updated with correct paths
 export const footerQuickLinks: QuickLink[] = [
-  { label: "Services", href: "/#services" },
+  { label: "Services", href: "/services" },
   { label: "Portfolio", href: "/portfolio" },
   { label: "Partners", href: "/ecosystem-partners" },
   { label: "Team", href: "/team" },

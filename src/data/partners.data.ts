@@ -18,6 +18,23 @@ const tslimg = "/lovable-uploads/partners/l3.png"
 const kulaimg = "/lovable-uploads/partners/l7.png"
 const cfjimg = "/lovable-uploads/partners/l8.png"
 const ceylonimg = "/lovable-uploads/partners/l6.png"
+const swapimg = "/lovable-uploads/partners/l17.png"
+const storyimg = "/lovable-uploads/partners/l19.png"
+const peakimg = "/lovable-uploads/partners/l18.png"
+const icpimg = "/lovable-uploads/partners/l20.png"
+const ventimg = "/lovable-uploads/partners/l16.png"
+const cwimg = "/lovable-uploads/partners/l21.png"
+const klimg = "/lovable-uploads/partners/l13.png"
+const redimg = "/lovable-uploads/partners/l12.png"
+const riverimg = "/lovable-uploads/partners/l11.png"
+const amiimg = "/lovable-uploads/partners/l9.png"
+const spimg = "/lovable-uploads/partners/l10.png"
+const singimg = "/lovable-uploads/partners/l22.png"
+const singaimg = "/lovable-uploads/partners/l14.png"
+const finimg = "/lovable-uploads/partners/l15.png"
+const showimg = "/lovable-uploads/partners/l23.png"
+const lightimg = "/lovable-uploads/partners/l24.png"
+const ibaimg = "/lovable-uploads/partners/l25.png"
 
 
 // Partner data
@@ -42,7 +59,7 @@ export const partners: Partner[] = [
   },
   {
     name: "IXSwap",
-    logo: defaultLogo,
+    logo: swapimg,
     url: "https://ixswap.io",
     category_tag: ["Venture & Finance"],
     display_priority: 3,
@@ -51,7 +68,7 @@ export const partners: Partner[] = [
   },
   {
     name: "Story Protocol",
-    logo: defaultLogo,
+    logo: storyimg,
     url: "https://storyprotocol.xyz",
     category_tag: ["Media & Entertainment", "Web3 & Infrastructure"],
     display_priority: 4,
@@ -60,7 +77,7 @@ export const partners: Partner[] = [
   },
   {
     name: "PEAQ",
-    logo: defaultLogo,
+    logo: peakimg,
     url: "https://www.peaq.network",
     category_tag: ["Web3 & Infrastructure"],
     display_priority: 5,
@@ -69,7 +86,7 @@ export const partners: Partner[] = [
   },
   {
     name: "India Blockchain Alliance",
-    logo: defaultLogo,
+    logo: ibaimg,
     url: "https://www.indiablockchainalliance.org",
     category_tag: ["Community & DAOs"],
     display_priority: 6,
@@ -78,7 +95,7 @@ export const partners: Partner[] = [
   },
   {
     name: "ICP",
-    logo: defaultLogo,
+    logo: icpimg,
     url: "https://internetcomputer.org",
     category_tag: ["Web3 & Infrastructure"],
     display_priority: 7,
@@ -87,7 +104,7 @@ export const partners: Partner[] = [
   },
   {
     name: "4+ Ventures",
-    logo: defaultLogo,
+    logo: ventimg,
     url: "https://www.4plusventures.com",
     category_tag: ["Venture & Finance"],
     display_priority: 8,
@@ -105,7 +122,7 @@ export const partners: Partner[] = [
   },
   {
     name: "Light House Productions",
-    logo: defaultLogo,
+    logo: lightimg,
     url: "https://worldlighthouse.com",
     category_tag: ["Media & Entertainment"],
     display_priority: 10,
@@ -114,7 +131,7 @@ export const partners: Partner[] = [
   },
   {
     name: "CW3",
-    logo: defaultLogo,
+    logo: cwimg,
     url: "https://cw3.global",
     category_tag: ["Community & DAOs"],
     display_priority: 11,
@@ -123,7 +140,7 @@ export const partners: Partner[] = [
   },
   {
     name: "Kleos Entertainment",
-    logo: defaultLogo,
+    logo: klimg,
     url: "https://kleosent.com",
     category_tag: ["Media & Entertainment"],
     display_priority: 12,
@@ -132,7 +149,7 @@ export const partners: Partner[] = [
   },
   {
     name: "Red Carpet Universe",
-    logo: defaultLogo,
+    logo: redimg,
     url: "https://redcarpetuniverse.com",
     category_tag: ["Media & Entertainment"],
     display_priority: 13,
@@ -150,7 +167,7 @@ export const partners: Partner[] = [
   },
   {
     name: "River Venture Studio",
-    logo: defaultLogo,
+    logo: riverimg,
     url: "https://riverventurestudio.com",
     category_tag: ["Venture & Finance"],
     display_priority: 15,
@@ -159,7 +176,7 @@ export const partners: Partner[] = [
   },
   {
     name: "Amigoo Ventures",
-    logo: defaultLogo,
+    logo: amiimg,
     url: "https://amigoo.xyz",
     category_tag: ["Venture & Finance"],
     display_priority: 16,
@@ -186,7 +203,7 @@ export const partners: Partner[] = [
   },
   {
     name: "SP Jain School",
-    logo: defaultLogo,
+    logo: spimg,
     url: "https://spjain.sg",
     category_tag: ["Education & Events"],
     display_priority: 19,
@@ -195,7 +212,7 @@ export const partners: Partner[] = [
   },
   {
     name: "Singapore FinTech Festival",
-    logo: defaultLogo,
+    logo: singimg,
     url: "https://fintechfestival.sg",
     category_tag: ["Education & Events"],
     display_priority: 20,
@@ -204,7 +221,7 @@ export const partners: Partner[] = [
   },
   {
     name: "GITEX Asia",
-    logo: defaultLogo,
+    logo: singaimg,
     url: "https://gitexasia.com",
     category_tag: ["Education & Events"],
     display_priority: 21,
@@ -213,7 +230,7 @@ export const partners: Partner[] = [
   },
   {
     name: "FinTech Frontiers",
-    logo: defaultLogo,
+    logo: finimg,
     url: "https://fintechfrontiers.live",
     category_tag: ["Education & Events"],
     display_priority: 22,
@@ -222,7 +239,7 @@ export const partners: Partner[] = [
   },
   {
     name: "Showlite Systems",
-    logo: defaultLogo,
+    logo: showimg,
     url: "https://showlitesystems.com",
     category_tag: ["Education & Events"],
     display_priority: 23,

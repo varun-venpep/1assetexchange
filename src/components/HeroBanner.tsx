@@ -33,7 +33,7 @@ const HeroBanner = () => {
         <div className="flex flex-wrap gap-5 justify-center mt-4">
           <Link to="/contact">
             <Button
-              className="px-8 py-6 text-base rounded-full font-semibold font-poppins shadow-gold bg-royalgold text-midnight hover:shadow-glow-gold transition-all duration-300"
+              className="px-8 py-6 text-base rounded-full font-semibold font-poppins shadow-gold bg-royalgold text-midnight hover:bg-royalgold transition-all duration-300"
             >
               Start With a Call
             </Button>

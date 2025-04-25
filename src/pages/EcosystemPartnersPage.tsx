@@ -4,6 +4,7 @@ import EcosystemPartnerFilter from "@/components/ecosystem/EcosystemPartnerFilte
 import EcosystemPartnerGrid from "@/components/ecosystem/EcosystemPartnerGrid";
 import CoPilotButton from "@/components/CoPilotButton";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 // Extract unique categories from partners
 const getAllCategories = () => {
@@ -64,11 +65,13 @@ const EcosystemPartnersPage = () => {
             <p className="text-midnight/70 mb-6 max-w-2xl mx-auto">
               Join our growing network of innovators and technology leaders. Let's build the future of digital infrastructure together.
             </p>
+            <Link to="/contact">
             <Button 
               className="bg-royalgold text-midnight hover:bg-royalgold/80 hover:shadow-gold px-8 py-6 h-auto rounded-full text-base"
             >
               Apply to Partner With Us
             </Button>
+            </Link>
           </div>
         </section>
       </main>
